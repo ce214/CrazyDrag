@@ -23,6 +23,8 @@
 		062F0B251827E00C008347D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062F0B001827E00C008347D2 /* Foundation.framework */; };
 		062F0B2D1827E00C008347D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 062F0B2B1827E00C008347D2 /* InfoPlist.strings */; };
 		062F0B301827E00C008347D2 /* CrazyDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F0B2F1827E00C008347D2 /* CrazyDragTests.m */; };
+		06553AB418281AA200DB2F2C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06553AB218281AA200DB2F2C /* AboutViewController.m */; };
+		06553AB518281AA200DB2F2C /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06553AB318281AA200DB2F2C /* AboutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		062F0B2C1827E00C008347D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		062F0B2E1827E00C008347D2 /* CrazyDragTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyDragTests.h; sourceTree = "<group>"; };
 		062F0B2F1827E00C008347D2 /* CrazyDragTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragTests.m; sourceTree = "<group>"; };
+		06553AB118281AA200DB2F2C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		06553AB218281AA200DB2F2C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		06553AB318281AA200DB2F2C /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +122,12 @@
 		062F0B041827E00C008347D2 /* CrazyDrag */ = {
 			isa = PBXGroup;
 			children = (
-				062F0B0D1827E00C008347D2 /* CrazyDragAppDelegate.h */,
-				062F0B0E1827E00C008347D2 /* CrazyDragAppDelegate.m */,
 				062F0B161827E00C008347D2 /* MainStoryboard.storyboard */,
 				062F0B191827E00C008347D2 /* CrazyDragViewController.h */,
 				062F0B1A1827E00C008347D2 /* CrazyDragViewController.m */,
+				06553AB118281AA200DB2F2C /* AboutViewController.h */,
+				06553AB218281AA200DB2F2C /* AboutViewController.m */,
+				06553AB318281AA200DB2F2C /* AboutViewController.xib */,
 				062F0B051827E00C008347D2 /* Supporting Files */,
 			);
 			path = CrazyDrag;
@@ -130,6 +136,8 @@
 		062F0B051827E00C008347D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				062F0B0D1827E00C008347D2 /* CrazyDragAppDelegate.h */,
+				062F0B0E1827E00C008347D2 /* CrazyDragAppDelegate.m */,
 				062F0B061827E00C008347D2 /* CrazyDrag-Info.plist */,
 				062F0B071827E00C008347D2 /* InfoPlist.strings */,
 				062F0B0A1827E00C008347D2 /* main.m */,
@@ -237,6 +245,7 @@
 				062F0B131827E00C008347D2 /* Default@2x.png in Resources */,
 				062F0B151827E00C008347D2 /* Default-568h@2x.png in Resources */,
 				062F0B181827E00C008347D2 /* MainStoryboard.storyboard in Resources */,
+				06553AB518281AA200DB2F2C /* AboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +283,7 @@
 				062F0B0B1827E00C008347D2 /* main.m in Sources */,
 				062F0B0F1827E00C008347D2 /* CrazyDragAppDelegate.m in Sources */,
 				062F0B1B1827E00C008347D2 /* CrazyDragViewController.m in Sources */,
+				06553AB418281AA200DB2F2C /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +345,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -350,6 +361,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -366,6 +378,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -374,6 +387,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -385,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
 				INFOPLIST_FILE = "CrazyDrag/CrazyDrag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
 				INFOPLIST_FILE = "CrazyDrag/CrazyDrag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,6 +470,7 @@
 				062F0B351827E00C008347D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		062F0B361827E00C008347D2 /* Build configuration list for PBXNativeTarget "CrazyDragTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +479,7 @@
 				062F0B381827E00C008347D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
