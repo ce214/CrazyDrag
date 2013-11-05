@@ -10,6 +10,7 @@
 
 @interface CrazyDragViewController : UIViewController<UIAlertViewDelegate>
 
+//控件的关联
 @property (strong, nonatomic) IBOutlet UISlider *slider;
 @property (strong, nonatomic) IBOutlet UILabel *targetLabel;
 @property (strong, nonatomic) IBOutlet UILabel *scoreLabel;

@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0600F6611829688600A9C8E3 /* no.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0600F6601829688600A9C8E3 /* no.mp3 */; };
 		062F0AFF1827E00C008347D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062F0AFE1827E00C008347D2 /* UIKit.framework */; };
 		062F0B011827E00C008347D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062F0B001827E00C008347D2 /* Foundation.framework */; };
 		062F0B031827E00C008347D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062F0B021827E00C008347D2 /* CoreGraphics.framework */; };
 		062F0B091827E00C008347D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 062F0B071827E00C008347D2 /* InfoPlist.strings */; };
 		062F0B0B1827E00C008347D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F0B0A1827E00C008347D2 /* main.m */; };
 		062F0B0F1827E00C008347D2 /* CrazyDragAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F0B0E1827E00C008347D2 /* CrazyDragAppDelegate.m */; };
-		062F0B111827E00C008347D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 062F0B101827E00C008347D2 /* Default.png */; };
-		062F0B131827E00C008347D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 062F0B121827E00C008347D2 /* Default@2x.png */; };
-		062F0B151827E00C008347D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 062F0B141827E00C008347D2 /* Default-568h@2x.png */; };
 		062F0B181827E00C008347D2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062F0B161827E00C008347D2 /* MainStoryboard.storyboard */; };
 		062F0B1B1827E00C008347D2 /* CrazyDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F0B1A1827E00C008347D2 /* CrazyDragViewController.m */; };
 		062F0B231827E00C008347D2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062F0B221827E00C008347D2 /* SenTestingKit.framework */; };
@@ -25,6 +23,25 @@
 		062F0B301827E00C008347D2 /* CrazyDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F0B2F1827E00C008347D2 /* CrazyDragTests.m */; };
 		06553AB418281AA200DB2F2C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06553AB218281AA200DB2F2C /* AboutViewController.m */; };
 		06553AB518281AA200DB2F2C /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06553AB318281AA200DB2F2C /* AboutViewController.xib */; };
+		0670929C18296ADA00D8709A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0670929B18296ADA00D8709A /* AVFoundation.framework */; };
+		067092AB18296C7A00D8709A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 067092AA18296C7A00D8709A /* Default.png */; };
+		067092AD18296C8000D8709A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067092AC18296C8000D8709A /* Default@2x.png */; };
+		067092AF18296C8400D8709A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067092AE18296C8400D8709A /* Default-568h@2x.png */; };
+		067092B118296DC700D8709A /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 067092B018296DC700D8709A /* Icon-57.png */; };
+		067092B318296DE000D8709A /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 067092B218296DE000D8709A /* Icon-114.png */; };
+		067092B518296E1100D8709A /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 067092B418296E1100D8709A /* iTunesArtwork.png */; };
+		068EA1DA1828BB9A00213306 /* CrazyDrag-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 062F0B061827E00C008347D2 /* CrazyDrag-Info.plist */; };
+		068EA1E518292F7B00213306 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1DC18292F7B00213306 /* Background.png */; };
+		068EA1E618292F7B00213306 /* Button-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1DD18292F7B00213306 /* Button-Highlighted.png */; };
+		068EA1E718292F7B00213306 /* Button-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1DE18292F7B00213306 /* Button-Normal.png */; };
+		068EA1E818292F7B00213306 /* SliderThumb-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1DF18292F7B00213306 /* SliderThumb-Highlighted.png */; };
+		068EA1E918292F7B00213306 /* SliderThumb-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1E018292F7B00213306 /* SliderThumb-Normal.png */; };
+		068EA1EA18292F7B00213306 /* SliderTrackLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1E118292F7B00213306 /* SliderTrackLeft.png */; };
+		068EA1EB18292F7B00213306 /* SliderTrackRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1E218292F7B00213306 /* SliderTrackRight.png */; };
+		068EA1EC18292F7B00213306 /* StartOverButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1E318292F7B00213306 /* StartOverButton.png */; };
+		068EA1ED18292F7B00213306 /* StartOverIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1E418292F7B00213306 /* StartOverIcon.png */; };
+		068EA1EF182938B200213306 /* CrazyDrag.html in Resources */ = {isa = PBXBuildFile; fileRef = 068EA1EE182938B200213306 /* CrazyDrag.html */; };
+		069BAC9D1829679A00AF88E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069BAC9C1829679A00AF88E3 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0600F6601829688600A9C8E3 /* no.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = no.mp3; path = "../../Downloads/ios7 code/cha15/resources/music/no.mp3"; sourceTree = "<group>"; };
 		062F0AFB1827E00C008347D2 /* CrazyDrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyDrag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		062F0AFE1827E00C008347D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		062F0B001827E00C008347D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,9 +66,6 @@
 		062F0B0C1827E00C008347D2 /* CrazyDrag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrazyDrag-Prefix.pch"; sourceTree = "<group>"; };
 		062F0B0D1827E00C008347D2 /* CrazyDragAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyDragAppDelegate.h; sourceTree = "<group>"; };
 		062F0B0E1827E00C008347D2 /* CrazyDragAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragAppDelegate.m; sourceTree = "<group>"; };
-		062F0B101827E00C008347D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		062F0B121827E00C008347D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		062F0B141827E00C008347D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		062F0B171827E00C008347D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		062F0B191827E00C008347D2 /* CrazyDragViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyDragViewController.h; sourceTree = "<group>"; };
 		062F0B1A1827E00C008347D2 /* CrazyDragViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragViewController.m; sourceTree = "<group>"; };
@@ -63,6 +78,24 @@
 		06553AB118281AA200DB2F2C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		06553AB218281AA200DB2F2C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		06553AB318281AA200DB2F2C /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		0670929B18296ADA00D8709A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		067092AA18296C7A00D8709A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		067092AC18296C8000D8709A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		067092AE18296C8400D8709A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		067092B018296DC700D8709A /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-57.png"; path = "../Icon-57.png"; sourceTree = "<group>"; };
+		067092B218296DE000D8709A /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-114.png"; path = "../Icon-114.png"; sourceTree = "<group>"; };
+		067092B418296E1100D8709A /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "../../../Downloads/ios7 code/cha15/resources/Icon副本/iTunesArtwork.png"; sourceTree = "<group>"; };
+		068EA1DC18292F7B00213306 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		068EA1DD18292F7B00213306 /* Button-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Highlighted.png"; sourceTree = "<group>"; };
+		068EA1DE18292F7B00213306 /* Button-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Normal.png"; sourceTree = "<group>"; };
+		068EA1DF18292F7B00213306 /* SliderThumb-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Highlighted.png"; sourceTree = "<group>"; };
+		068EA1E018292F7B00213306 /* SliderThumb-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Normal.png"; sourceTree = "<group>"; };
+		068EA1E118292F7B00213306 /* SliderTrackLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackLeft.png; sourceTree = "<group>"; };
+		068EA1E218292F7B00213306 /* SliderTrackRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackRight.png; sourceTree = "<group>"; };
+		068EA1E318292F7B00213306 /* StartOverButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverButton.png; sourceTree = "<group>"; };
+		068EA1E418292F7B00213306 /* StartOverIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverIcon.png; sourceTree = "<group>"; };
+		068EA1EE182938B200213306 /* CrazyDrag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CrazyDrag.html; sourceTree = "<group>"; };
+		069BAC9C1829679A00AF88E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0670929C18296ADA00D8709A /* AVFoundation.framework in Frameworks */,
+				069BAC9D1829679A00AF88E3 /* QuartzCore.framework in Frameworks */,
 				062F0AFF1827E00C008347D2 /* UIKit.framework in Frameworks */,
 				062F0B011827E00C008347D2 /* Foundation.framework in Frameworks */,
 				062F0B031827E00C008347D2 /* CoreGraphics.framework in Frameworks */,
@@ -92,6 +127,8 @@
 		062F0AF21827E00C008347D2 = {
 			isa = PBXGroup;
 			children = (
+				067092B618296F6A00D8709A /* music */,
+				068EA1DB18292F7B00213306 /* Images */,
 				062F0B041827E00C008347D2 /* CrazyDrag */,
 				062F0B281827E00C008347D2 /* CrazyDragTests */,
 				062F0AFD1827E00C008347D2 /* Frameworks */,
@@ -111,6 +148,8 @@
 		062F0AFD1827E00C008347D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0670929B18296ADA00D8709A /* AVFoundation.framework */,
+				069BAC9C1829679A00AF88E3 /* QuartzCore.framework */,
 				062F0AFE1827E00C008347D2 /* UIKit.framework */,
 				062F0B001827E00C008347D2 /* Foundation.framework */,
 				062F0B021827E00C008347D2 /* CoreGraphics.framework */,
@@ -128,6 +167,7 @@
 				06553AB118281AA200DB2F2C /* AboutViewController.h */,
 				06553AB218281AA200DB2F2C /* AboutViewController.m */,
 				06553AB318281AA200DB2F2C /* AboutViewController.xib */,
+				068EA1EE182938B200213306 /* CrazyDrag.html */,
 				062F0B051827E00C008347D2 /* Supporting Files */,
 			);
 			path = CrazyDrag;
@@ -136,15 +176,18 @@
 		062F0B051827E00C008347D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				067092B418296E1100D8709A /* iTunesArtwork.png */,
+				067092B218296DE000D8709A /* Icon-114.png */,
+				067092B018296DC700D8709A /* Icon-57.png */,
+				067092AE18296C8400D8709A /* Default-568h@2x.png */,
+				067092AC18296C8000D8709A /* Default@2x.png */,
+				067092AA18296C7A00D8709A /* Default.png */,
 				062F0B0D1827E00C008347D2 /* CrazyDragAppDelegate.h */,
 				062F0B0E1827E00C008347D2 /* CrazyDragAppDelegate.m */,
 				062F0B061827E00C008347D2 /* CrazyDrag-Info.plist */,
 				062F0B071827E00C008347D2 /* InfoPlist.strings */,
 				062F0B0A1827E00C008347D2 /* main.m */,
 				062F0B0C1827E00C008347D2 /* CrazyDrag-Prefix.pch */,
-				062F0B101827E00C008347D2 /* Default.png */,
-				062F0B121827E00C008347D2 /* Default@2x.png */,
-				062F0B141827E00C008347D2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,6 +209,30 @@
 				062F0B2B1827E00C008347D2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		067092B618296F6A00D8709A /* music */ = {
+			isa = PBXGroup;
+			children = (
+				0600F6601829688600A9C8E3 /* no.mp3 */,
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
+		068EA1DB18292F7B00213306 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				068EA1DC18292F7B00213306 /* Background.png */,
+				068EA1DD18292F7B00213306 /* Button-Highlighted.png */,
+				068EA1DE18292F7B00213306 /* Button-Normal.png */,
+				068EA1DF18292F7B00213306 /* SliderThumb-Highlighted.png */,
+				068EA1E018292F7B00213306 /* SliderThumb-Normal.png */,
+				068EA1E118292F7B00213306 /* SliderTrackLeft.png */,
+				068EA1E218292F7B00213306 /* SliderTrackRight.png */,
+				068EA1E318292F7B00213306 /* StartOverButton.png */,
+				068EA1E418292F7B00213306 /* StartOverIcon.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,12 +307,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068EA1DA1828BB9A00213306 /* CrazyDrag-Info.plist in Resources */,
 				062F0B091827E00C008347D2 /* InfoPlist.strings in Resources */,
-				062F0B111827E00C008347D2 /* Default.png in Resources */,
-				062F0B131827E00C008347D2 /* Default@2x.png in Resources */,
-				062F0B151827E00C008347D2 /* Default-568h@2x.png in Resources */,
 				062F0B181827E00C008347D2 /* MainStoryboard.storyboard in Resources */,
 				06553AB518281AA200DB2F2C /* AboutViewController.xib in Resources */,
+				068EA1E518292F7B00213306 /* Background.png in Resources */,
+				068EA1E618292F7B00213306 /* Button-Highlighted.png in Resources */,
+				068EA1E718292F7B00213306 /* Button-Normal.png in Resources */,
+				068EA1E818292F7B00213306 /* SliderThumb-Highlighted.png in Resources */,
+				068EA1E918292F7B00213306 /* SliderThumb-Normal.png in Resources */,
+				068EA1EA18292F7B00213306 /* SliderTrackLeft.png in Resources */,
+				068EA1EB18292F7B00213306 /* SliderTrackRight.png in Resources */,
+				068EA1EC18292F7B00213306 /* StartOverButton.png in Resources */,
+				068EA1ED18292F7B00213306 /* StartOverIcon.png in Resources */,
+				068EA1EF182938B200213306 /* CrazyDrag.html in Resources */,
+				0600F6611829688600A9C8E3 /* no.mp3 in Resources */,
+				067092AB18296C7A00D8709A /* Default.png in Resources */,
+				067092AD18296C8000D8709A /* Default@2x.png in Resources */,
+				067092AF18296C8400D8709A /* Default-568h@2x.png in Resources */,
+				067092B118296DC700D8709A /* Icon-57.png in Resources */,
+				067092B318296DE000D8709A /* Icon-114.png in Resources */,
+				067092B518296E1100D8709A /* iTunesArtwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +427,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -362,6 +444,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -378,7 +461,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -388,6 +471,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -399,7 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
 				INFOPLIST_FILE = "CrazyDrag/CrazyDrag-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,7 +495,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
 				INFOPLIST_FILE = "CrazyDrag/CrazyDrag-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
