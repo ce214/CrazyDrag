@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4625BDE3-7DBD-4917-A456-40D8CB2FFC6B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CrazyDrag</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>166BDA71-1675-4BAA-9068-9EAC13718661</key>
+		<string>https://github.com/ichenxiaodao/CrazyDrag.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CrazyDrag.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>166BDA71-1675-4BAA-9068-9EAC13718661</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ichenxiaodao/CrazyDrag.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>166BDA71-1675-4BAA-9068-9EAC13718661</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>166BDA71-1675-4BAA-9068-9EAC13718661</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CrazyDrag</string>
+		</dict>
+	</array>
+</dict>
+</plist>
