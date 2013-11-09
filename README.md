@@ -2,7 +2,8 @@
 ============
 
 来自：[让不懂编程的人爱上iPhone开发(2013秋iOS7版)](http://blog.sina.com.cn/eseedo)  
-  
+总结：[让不懂编程的人爱上iPhone开发(学习总结)](http://ichenxiaodao.github.io/?p=data/iOS-Dev/let-you-love-iphone-dev.html )  
+ 
 这是一个很适合iOS开发入门的教程。
 
 ### 从中可以学到：
